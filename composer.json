@@ -8,6 +8,12 @@
             "email": "xw-xcp@139.com"
         }
     ],
+  "repositories":[
+    {
+      "type":"vcs",
+      "url":"https://github.com/Eyran/php-tools.git"
+    }
+  ],
     "minimum-stability": "dev",
     "require": {},
 	"autoload":{
