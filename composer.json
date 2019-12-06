@@ -1,24 +1,26 @@
 {
-    "name": "admin/php-tools",
-    "type": "project",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Eyran",
-            "email": "xw-xcp@139.com"
-        }
-    ],
-  "repositories":[
+  "name": "admin/php-tools",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
     {
-      "type":"vcs",
-      "url":"https://github.com/Eyran/php-tools"
+      "name": "Eyran",
+      "email": "xw-xcp@139.com"
     }
   ],
-    "minimum-stability": "dev",
-    "require": {},
-	"autoload":{
-		"psr-4": {
-			"Tools\\Algorithm\\": "src/Tools/Algorithm"
-		}
-	}
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Eyran/php-tools"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "Tools/Algorithm": "Tools/Algorithm"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tools\\Algorithm\\": "src/Tools/Algorithm"
+    }
+  }
 }
