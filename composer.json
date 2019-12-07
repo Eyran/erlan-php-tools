@@ -11,7 +11,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/Eyran/php-tools"
+      "url": "https://github.com/Eyran/erlan-php-tools"
     }
   ],
   "minimum-stability": "dev",
