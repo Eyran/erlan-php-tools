@@ -15,9 +15,7 @@
     }
   ],
   "minimum-stability": "dev",
-  "require": {
-    "Tools/Algorithm": "Tools/Algorithm"
-  },
+  "require": {},
   "autoload": {
     "psr-4": {
       "Tools\\Algorithm\\": "src/Tools/Algorithm"
