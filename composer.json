@@ -12,7 +12,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/Eyran/erlan-php-tools"
+      "url": "https://github.com/Eyran/erlan-php-tools.git"
     }
   ],
   "minimum-stability": "dev",
@@ -25,3 +25,4 @@
     }
   }
 }
+
