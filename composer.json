@@ -1,5 +1,6 @@
 {
   "name": "erlan/php-tools",
+  "description": "常用算法",
   "type": "project",
   "license": "MIT",
   "authors": [
@@ -15,7 +16,9 @@
     }
   ],
   "minimum-stability": "dev",
-  "require": {},
+  "require": {
+    "php": ">=7.0.0"
+  },
   "autoload": {
     "psr-4": {
       "Tools\\Algorithm\\": "src/Tools/Algorithm"
