@@ -21,3 +21,6 @@ require './vendor/autoload.php';
 // $res = \Tools\Algorithm\Sequence::instance()->setStr("1122334455")->encrypt();
 # 解密字符串
 // $res = \Tools\Algorithm\Sequence::instance()->setStr($res)->decrypt();
+# curls
+$res = \Tools\Algorithm\Curls::instance()->run('http://www.baidu.com');
+var_dump($res);
